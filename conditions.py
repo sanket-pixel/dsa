@@ -1,4 +1,3 @@
-# fibbonaci
 
 def fibbonaci(n):
     a = 0
@@ -27,4 +26,3 @@ def reverse(n):
         n = int(n/10)
     return reversed_digit
 
-print(reverse(5600))
