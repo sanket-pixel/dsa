@@ -26,3 +26,13 @@ def reverse(n):
         n = int(n/10)
     return reversed_digit
 
+def is_prime(n):
+    if n<=1:
+        return False
+    c = 2
+    while(c*c<=n):
+        if n%c == 0:
+            return False
+        else:
+            c+=1
+    return True
